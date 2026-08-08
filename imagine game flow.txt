@@ -1,0 +1,21 @@
+#import dictionaries
+#	from rooms import rooms
+#	from commands import commands
+#	from achievements import achievements
+#	from game import game
+#import random
+
+#MAKE THE GAME A CLASS - enables multiple saves - take initial input for "gecko name?" to create a new save
+
+print("Gecko Adventures! \n-the interactive edition-")
+
+#check if new game
+
+spawn()
+
+input("🦎> ") #ask the player what they wanna do
+
+#the game state can be... a dictionary, a class... who knows :))
+
+while True:
+	process_commands()

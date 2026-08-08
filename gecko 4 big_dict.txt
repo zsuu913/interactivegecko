@@ -1,0 +1,350 @@
+[
+	{
+	"name": "room1",
+	"description" : "description0",
+	"exits" : {
+		"southeast" : "room16",
+		"up" : "start",
+		"down" : "room2",
+		"default" : "room2"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room2",
+	"description" : "description0",
+	"exits" : {
+		"east" : "room3",
+		"southwest" : "room6",
+		"default" : "room6",
+		"UNUSED" : "direction4"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "start",
+	"description" : "A gekkó egy mohos kövön sütteti a hasát. ",
+	"exits" : {
+		"south" : "room1",
+		"down" : "room1",
+		"default" : "room1",
+		"UNUSED" : "direction4"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room3",
+	"description" : "description0",
+	"exits" : {
+		"southeast" : "room4",
+		"southwest" : "room5",
+		"west" : "room2",
+		"default" : "room4"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room4",
+	"description" : "description0",
+	"exits" : {
+		"west" : "room3",
+		"default" : "room3",
+		"UNUSED" : "direction3",
+		"UNUSED" : "direction4"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room5",
+	"description" : " ",
+	"exits" : {
+		"northeast" : "room3",
+		"default" : "room3",
+		"UNUSED" : "direction3",
+		"UNUSED" : "direction4"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room6",
+	"description" : "description0",
+	"exits" : {
+		"northeast" : "room2",
+		"east" : "dead",
+		"south" : "room7",
+		"northwest" : "maze_unused",
+		"default" : "room2"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room7",
+	"description" : "river",
+	"exits" : {
+		"all_exits" : "room8",
+		"exit2" : "direction2",
+		"exit3" : "direction3",
+		"exit4" : "direction4"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room8",
+	"description" : " ",
+	"exits" : {
+		"north" : "room10",
+		"east" : "room12",
+		"south" : "room9",
+		"up" : "room9",
+		"default" : "room10"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room9",
+	"description" : "description0",
+	"exits" : {
+		"north" : "room8",
+		"southeast" : "dead",
+		"up" : "dead",
+		"default" : "room8"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room10",
+	"description" : "description0",
+	"exits" : {
+		"north" : "room13",
+		"northeast" : "room11",
+		"south" : "room8",
+		"up" : "room13",
+		"down" : "room8",
+		"default" : "room11"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room11",
+	"description" : " ",
+	"exits" : {
+		"southwest" : "room10",
+		"default" : "room10",
+		"UNUSED" : "direction3",
+		"UNUSED" : "direction4"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room12",
+	"description" : "description0",
+	"exits" : {
+		"northeast" : "room15",
+		"west" : "room8",
+		"up" : "room15",
+		"default" : "room8"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room13",
+	"description" : "description0",
+	"exits" : {
+		"northeast" : "dead",
+		"south" : "room10",
+		"up" : "dead",
+		"default" : "room13"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room14",
+	"description" : " ",
+	"exits" : {
+		"southeast" : "room12",
+		"default" : "room12",
+		"UNUSED" : "direction3",
+		"UNUSED" : "direction4"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room15",
+	"description" : " ",
+	"exits" : {
+		"north" : "room16",
+		"southwest" : "room12",
+		"up" : "room16",
+		"default" : "room12"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	},
+	{
+	"name": "room16",
+	"description" : " ",
+	"exits" : {
+		"south" : "room15",
+		"west" : "room1",
+		"down" : "room15",
+		"default" : "room15"
+		},
+	"contains" : {
+		"object1" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		"object2" : {
+			"name" : "name_object"
+			"description" : "describe object"
+			},
+		},
+	}
+]
+
+
+
+
